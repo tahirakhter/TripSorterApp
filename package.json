@@ -1,0 +1,14 @@
+{
+  "name": "reactNodeApp",
+  "author": "Tahir Akhter",
+  "keywords": [],
+  "version": "1.0.0",
+  "description": "Mainn package.json file to start both server and client concurrently",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "npm run server | npm run client"
+  },
+  "license": "ISC",
+  "dependencies": {}
+}
